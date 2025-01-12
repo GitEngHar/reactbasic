@@ -4,7 +4,7 @@
 import Colorfulmessage from "./components/Colorfulmessage";
 import { useEffect,useState } from "react";
 
-export const App = () => {
+export const Learn = () => {
     // 開発時に 特定の条件のみ2回初期レンダリング
     // StrictModeを使っていて開発環境のみ2回レンダリング走る
     const [num,setNum] = useState(0); // 配列を返す(ステート,ステートの更新関数) , 関数の一番上でしか呼べない
